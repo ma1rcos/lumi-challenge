@@ -1,0 +1,99 @@
+@import url('../../colors.css');
+
+.dashboard-search-area {
+    width: 45%;
+    margin: 0 auto 0 auto;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    box-shadow: 1.5px 2px 2px 1.5px rgba(0, 0, 0, 0.233);
+}
+
+.dashboard-search-input {
+    width: 85%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.233);
+}
+
+.dashboard-search-input::placeholder {
+    color: rgba(0, 0, 0, 0.233);
+}
+
+.dashboard-search-button {
+    width: 15%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.dashboard-search-button:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.main-library {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+    flex-direction: column;
+    overflow-x: scroll;
+    padding: 16px;
+}
+
+.main-library::-webkit-scrollbar {
+    display: none;
+}
+
+.invoice-item {
+    width: 100%;
+    height: 80px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    box-shadow: 1.5px 2px 2px 1.5px rgba(0, 0, 0, 0.233);
+}
+
+.invoice-item div {
+    width: 20%;
+    height: 100%;
+    padding: 16px 8px 16px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.invoice-item div label {
+    color: rgb(128, 128, 128);
+    font-weight: bold;
+}
+
+.invoice-item div span {
+    color: rgb(151, 151, 151);
+    font-weight: 500;
+}
+
+.invoice-item div button {
+    background: unset;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.not-exists-data-message {
+    margin: auto;
+    font-size: 30px;
+    color: gray;
+}

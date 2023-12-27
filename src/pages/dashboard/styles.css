@@ -1,0 +1,64 @@
+@import '../../colors.css';
+
+.dashboard-search-area {
+    width: 45%;
+    margin: 0 auto 0 auto;
+    height: 70px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    box-shadow: 1.5px 2px 2px 1.5px rgba(0, 0, 0, 0.233);
+}
+
+.dashboard-search-input {
+    width: 85%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.233);
+}
+
+.dashboard-search-input::placeholder {
+    color: rgba(0, 0, 0, 0.233);
+}
+
+.dashboard-search-button {
+    width: 15%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.dashboard-search-button:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.main-dashboard {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.main-dashboard div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.not-exists-data-message {
+    margin: auto;
+    font-size: 30px;
+    color: gray;
+}

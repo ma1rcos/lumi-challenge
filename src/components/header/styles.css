@@ -1,0 +1,42 @@
+@import '../../colors.css';
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: var(--fifth);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.page-button {
+    width: 180px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+#dashboard-button {
+    background-color: var(--first);
+}
+
+#dashboard-button:hover {
+    background-color: #0c1e40;
+}
+
+#library-button {
+    background-color: var(--second);
+}
+
+#library-button:hover {
+    background-color: rgb(18, 29, 46);
+}
