@@ -4,30 +4,9 @@ import Header from '../../components/header';
 import { FaSearch } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import VBox from '../../components/v-box';
-import { useState, useEffect } from 'react';
-
-
-interface Data {
-  id: number;
-  clientNumber: string;
-  referenceMonth: string;
-  pathFile: string;
-  electricalEnergyQuantity: string;
-  electricalEnergyValue: string;
-  energySceeeIcmsQuantity: string;
-  electricalSceeeIcmsValue: string;
-  compensatedEnergyQuantity: string;
-  compensatedEnergyValue: string;
-  contributionValue: string;
-  createdAt: Date;
-  updatedAt: Date;
-}
-
-interface ResponseBody {
-  statusCode: number;
-  message: string;
-  data: Data[];
-}
+import { useState, useEffect } from 'react';  
+import { Data } from './interfaces';
+import { ResponseBody } from './interfaces';
 
 function LibraryPage() {
 

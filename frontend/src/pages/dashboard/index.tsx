@@ -6,19 +6,8 @@ import { FaSearch } from "react-icons/fa";
 import ConsumptionGraph from './graphs/consumption';
 import EconomyGraph from './graphs/economy';
 import { useState, useEffect } from 'react';
-
-interface Data {
-  compensatedEnergy: number;
-  economyGD: number;
-  eletricalEnergy: number;
-  totalValueWithoutGD: number;
-}
-
-interface ResponseBody {
-  statusCode: number;
-  message: string;
-  data: Data;
-}
+import { Data } from './interfaces';
+import { ResponseBody } from './interfaces';
 
 function DashboardPage() {
 
