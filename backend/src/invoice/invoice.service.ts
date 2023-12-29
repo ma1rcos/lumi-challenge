@@ -214,7 +214,7 @@ export class InvoiceService {
         invoices.push(invoice);
       })
     }
-  
+    
     return {
       statusCode: 200,
       message: Message.DataFoundSuccesfully,
